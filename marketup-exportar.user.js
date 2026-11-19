@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Marketup - Exportar notas do mês anterior isto é melhoria para o dia a dia
+// @name         Marketup - Exportar notas do mês anterior
 // @namespace    https://github.com/consultoriatakaes-art
 // @version      1.0.0
 // @description  Exporta o relatório de notas (Excel) e os XMLs do mês anterior no Marketup
@@ -26,7 +26,7 @@
   // 1) Filtro do mês anterior
   if (!params.get('issuedFrom')) {
     const h = new Date();
-    const ini = new Date(h.getFullYear(), h.getMonth() - 1, 1);
+    const ini = new Date(h.getFullYear(), h.getMonth() - 1, 2);
     const fim = new Date(h.getFullYear(), h.getMonth(), 0);
     const f = d => d.getFullYear() + '-' +
       String(d.getMonth() + 1).padStart(2, '0') + '-' +
