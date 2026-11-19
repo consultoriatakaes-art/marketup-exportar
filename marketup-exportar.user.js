@@ -26,7 +26,7 @@
   // 1) Filtro do mês anterior
   if (!params.get('issuedFrom')) {
     const h = new Date();
-    const ini = new Date(h.getFullYear(), h.getMonth() - 1, 2);
+    const ini = new Date(h.getFullYear(), h.getMonth() - 1, 1);
     const fim = new Date(h.getFullYear(), h.getMonth(), 0);
     const f = d => d.getFullYear() + '-' +
       String(d.getMonth() + 1).padStart(2, '0') + '-' +
