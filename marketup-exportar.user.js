@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Marketup - Exportar notas do mês anterior
+// @name         Marketup - Exportar notas do mês anterior isto é melhoria para o dia a dia
 // @namespace    https://github.com/consultoriatakaes-art
 // @version      1.0.0
 // @description  Exporta o relatório de notas (Excel) e os XMLs do mês anterior no Marketup
